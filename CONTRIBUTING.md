@@ -1,9 +1,9 @@
 # Contributing
 
 Antes de contribuir en este repositorio, por favor
- * lee el [README.md](https://github.com/OWNER/REPO/blob/master/README.md),
- * lee nuestro [CODE_OF_CONDUCT.md](https://github.com/OWNER/REPO/blob/master/CODE_OF_CONDUCT.md),
- * visita nuestros [issues](https://github.com/OWNER/REPO/issues),
+ * lee el [README.md](https://github.com/enzodiazdev/rsa-authentication/blob/main/README.md),
+ * lee nuestro [CODE_OF_CONDUCT.md](https://github.com/enzodiazdev/rsa-authentication/blob/main/CODE_OF_CONDUCT.md),
+ * visita nuestros [issues](https://github.com/enzodiazdev/rsa-authentication/issues),
  * considera formar parte de la discusión en [](),
  * si es tu primera vez, lee un resumen de cómo contribuir: [Contribuir por primera vez en Github](https://gist.github.com/EnzoDiazDev/31e73d0573142d0573eb58d69a5158fd)
  * termina de leer este archivo. 

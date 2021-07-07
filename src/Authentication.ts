@@ -16,12 +16,14 @@ export default class Authentication {
 
         const new_user = new User(id, public_key);
         try {
+            //save user in database
             users.add_user(new_user);
 
+            //respond with server public key
             res.status(201).json({
                 message: "Registration completed",
                 data: {
-                    public_key: "-----BEGIN PUBLIC KEY-----\nMFswDQYJKoZIhvcNAQEBBQADSgAwRwJAf/URz0L5C/UQx5U7f9hQsKg0oyjbyfOi\nwW+nw7uVPuEvQEpXcoZxUFT3CowenIZPTqE55r3urlz/qny/plUlJQIDAQAB\n-----END PUBLIC KEY-----"
+                    public_key: process.env.PUBLIC_KEY as string
                 }
             });
 

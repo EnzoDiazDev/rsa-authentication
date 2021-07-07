@@ -20,7 +20,8 @@ export default class FooBar {
         const {id, data} = req.body as {id:string, data:string};
 
         if(is_secret(data)){
-            const secret_response = "this is a secret response"; //generate super secret response
+            //generate super secret response
+            const secret_response = "this is a secret response";
 
             const user = users.get_user(id) as User;
             const pub_key = new NodeRSA(user.public_key, "pkcs8-public");

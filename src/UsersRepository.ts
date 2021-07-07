@@ -1,5 +1,6 @@
 import User from "./User";
 
+// Simulates a user database
 class UsersRepository {
     private db = new Map<string, User>();
 
